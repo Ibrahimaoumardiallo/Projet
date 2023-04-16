@@ -1,0 +1,158 @@
+body
+{
+  background-color: #F5DEC1;
+}
+.titre{
+    
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+.container
+{
+    width: 100%;
+ 
+}
+
+.form{ /* Partie bordure */
+    margin-left: 150px;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 300px;
+    border: solid 1px black;
+    height: 300px;
+    padding: 25px;
+    
+    
+    border-radius: 30px;            
+}
+
+label{
+    font-size: 25px;
+    padding: 25px;
+}
+
+.form input{
+    border: 2px solid black;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    background-color: #CCCCCC;
+}
+.button
+{
+    border-radius: 30px;  
+    width: 150px;
+    height: 40px; 
+    background: #DE8E59;
+ 
+    margin: 15px;
+    
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border: none;
+
+}
+p
+{
+    text-align: right;
+    font-size: 15px;
+    margin-right: 55px;
+}
+h2
+{
+    width: 100%;
+}
+.form-cont {
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+    min-width: auto;
+}
+@media only screen and (max-width: 700px) {
+/* styles pour les écrans avec une largeur maximale de 600px */
+body
+{
+    background-color: #F5DEC1;
+}
+.titre{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+.form{
+    margin-left: 150px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: none;
+    border-radius: 30px; 
+}
+
+label{
+    font-size: 25px;
+    padding: 25px;
+}
+/* la taille des champs de saisies*/
+.form input{ /* les champs de saisies */
+    border: 2px solid black;
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    background-color: #CCCCCC;
+}
+.button
+{
+    border-radius: 30px;  
+    width: 150px;
+    height: 50px; 
+    margin-top: 25px;
+    background: #DE8E59;
+    border: none;
+    
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border: none;
+    
+
+}
+p
+{
+    text-align: right;
+   font-size: 20px;
+   margin-right: 55px;
+}
+.form-cont {
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+/* styles pour les écrans avec une largeur minimale de 601px et maximale de 1024px */
+
+}
+
+@media only screen and (min-width: 1025px) {
+/* styles pour les écrans avec une largeur minimale de 1025px */
+
+}
